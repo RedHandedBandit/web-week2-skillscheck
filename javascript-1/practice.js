@@ -92,6 +92,15 @@ let middleNums = numbers.splice(1,3)
 
 //Code Here
 
+let me = {
+	firstName: 'Jackson',
+	state: 'Utah',
+	age: 25,
+	greeter: function(){
+		return 'Hello! My name is ' + firstName + ' and I live in ' + state
+	}
+}
+
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function
